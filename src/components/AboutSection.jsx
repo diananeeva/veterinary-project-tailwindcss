@@ -1,4 +1,5 @@
 import React from "react";
+import dogImage from "/images/dog.png";
 
 const AboutSection = () => {
   return (
@@ -25,7 +26,7 @@ const AboutSection = () => {
       
       <div className="flex-1">
         <img
-          src="/images/dog.png"
+           src={dogImage} 
           alt="Dog"
          className="w-full h-auto object-contain md:w-80 md:h-auto ml-auto mr-10"
         />

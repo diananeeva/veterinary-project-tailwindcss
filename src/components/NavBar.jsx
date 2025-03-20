@@ -1,9 +1,11 @@
+import companyLogo from "/images/company-logo.png"
+
 function NavBar() {
     return (
       <header className="bg-header-yellow px-[142px]">
         <nav className="flex items-center h-20 ">
           <ul className="flex w-full justify-between items-center">
-            <li><img src="/images/company-logo.png" alt="Company Logo" className="h-10" /></li>
+            <li><img src={companyLogo} alt="Company Logo" className="h-10" /></li>
             <li>
             <a href="/" className="text-white text-[18px] font-medium font-poppins">Home</a>
 
