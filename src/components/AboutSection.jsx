@@ -3,7 +3,7 @@ import dogImage from "/images/dog.png";
 
 const AboutSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between min-h-screen bg-main-yellow px-6 md:px-[142px]  py-10">
+    <section  className="flex flex-col lg:flex-row items-center justify-between min-h-screen bg-main-yellow px-6 md:px-[142px]  py-10">
       
       <div className="flex-1 max-w-3xl text-white text-center lg:text-left mb-10 lg:mb-0 flex flex-col items-center lg:items-start">
         <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">

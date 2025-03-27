@@ -11,6 +11,7 @@ export default {
         'custom-yellow': '#fbc301', 
         'main-yellow': '#fcc302',
         'custom-blue': '#00bdc9',
+        'text-blue': '#313243', 
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif']
